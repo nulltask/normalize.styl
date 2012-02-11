@@ -1,6 +1,6 @@
-# normalize.styl
+# Normalize
 
-  Stylus porting of normalize.scss. Originally modularized by Kyo Nagashima.
+  Stylus porting of normalize.css. Originally modularized by Kyo Nagashima.
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ npm install normalize
 
 ## JavaScript API
 
- Below is an example of how to utilize nib and stylus with the connect framework (or express).
+ Below is an example of how to utilize normalize and stylus with the connect framework (or express).
 
 ```javascript
 var connect = require('connect')
