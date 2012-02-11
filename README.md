@@ -23,7 +23,7 @@ function compile(str, path) {
   return stylus(str)
 	.set('filename', path)
 	.set('compress', true)
-	.use(normalize());
+	.include(normalize.path);
 }
 
 server.use(stylus.middleware({
