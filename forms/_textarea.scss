@@ -3,7 +3,6 @@
  * 2. Improves readability and alignment in all browsers
  */
 
-textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
-}
+textarea
+  overflow: auto /* 1 */
+  vertical-align: top /* 2 */

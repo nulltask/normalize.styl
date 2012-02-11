@@ -5,14 +5,12 @@
 
 /* 1 */
 
-q {
-    quotes: none;
-}
+q
+  quotes: none
 
 /* 2 */
 
 q:before,
-q:after {
-    content: '';
-    content: none;
-}
+q:after
+  content: ''
+  content: none

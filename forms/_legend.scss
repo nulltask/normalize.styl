@@ -4,9 +4,8 @@
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 
-legend {
-    border: 0; /* 1 */
-    padding: 0;
-    white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
-}
+legend
+  border: 0 /* 1 */
+  padding: 0
+  white-space: normal /* 2 */
+  *margin-left: -7px /* 3 */

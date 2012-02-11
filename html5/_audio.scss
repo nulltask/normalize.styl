@@ -2,6 +2,5 @@
  * Prevents modern browsers from displaying 'audio' without controls
  */
 
-audio:not([controls]) {
-    display: none;
-}
+audio:not([controls])
+  display: none

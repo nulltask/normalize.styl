@@ -2,9 +2,8 @@
  * Addresses outline displayed oddly in Chrome
  */
 
-a:focus {
-    outline: thin dotted;
-}
+a:focus
+  outline: thin dotted
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers
@@ -12,6 +11,5 @@ a:focus {
  */
 
 a:hover,
-a:active {
-    outline: 0;
-}
+a:active
+  outline: 0

@@ -4,8 +4,7 @@
 
 audio,
 canvas,
-video {
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-}
+video
+  display: inline-block
+  *display: inline
+  *zoom: 1
