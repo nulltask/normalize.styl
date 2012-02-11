@@ -1,6 +1,6 @@
 # Normalize
 
-  [Stylus](http://learnboost.github.com/stylus/) porting of [normalize.css](https://github.com/jonathantneal/normalize.css). Originally modularized by [Kyo Nagashima](http://hail2u.net/).
+  [Stylus](http://learnboost.github.com/stylus/) porting of [normalize.css](http://necolas.github.com/normalize.css/). Originally modularized by [Kyo Nagashima](http://hail2u.net/).
 
 ## Installation
 
