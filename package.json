@@ -1,0 +1,15 @@
+{
+  "name": "normalize.styl"
+, "description": "Stylus porting of normalize.css"
+, "version": "0.1.0"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/nulltask/normalize.styl.git"
+  }
+, "dependencies": {
+    "stylus": "*"
+  }
+, "author": "nulltask <nulltask@gmail.com>"
+, "main": "lib/normalize.js"
+, "engines": { "node": "*" }
+}
