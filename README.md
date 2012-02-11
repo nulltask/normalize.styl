@@ -1,6 +1,6 @@
 # Normalize
 
-  Stylus porting of normalize.css. Originally modularized by Kyo Nagashima.
+  [Stylus](http://learnboost.github.com/stylus/) porting of [normalize.css](https://github.com/jonathantneal/normalize.css). Originally modularized by [Kyo Nagashima](http://hail2u.net/).
 
 ## Installation
 
