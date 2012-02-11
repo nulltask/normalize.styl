@@ -1,31 +1,71 @@
-normalize.scss
-==============
+# normalize.styl
 
-Modularized and [Sass](http://sass-lang.com/)y [normalize.css](http://necolas.github.com/normalize.css/).
+  Stylus porting of normalize.scss. Originally modularized by Kyo Nagashima.
 
+## Installation
 
-Example
--------
+```bash
+$ npm install normalize
+```
 
-See [\_my\_normalize.scss](https://github.com/hail2u/normalize.scss/blob/master/_my_normalize.scss).
+## JavaScript API
 
+ Below is an example of how to utilize nib and stylus with the connect framework (or express).
 
-Note
-----
+```javascript
+var connect = require('connect')
+  , stylus = require('stylus')
+  , normalize = require('normalize');
 
-Some partials are deprecated and will be removed:
+var server = connect();
 
-  - typography/\_h1.scss
-  - lists/\_fix-indent.scss
+function compile(str, path) {
+  return stylus(str)
+	.set('filename', path)
+	.set('compress', true)
+	.use(normalize());
+}
 
+server.use(stylus.middleware({
+	src: __dirname
+  , compile: compile
+}));
+```
 
-LICENSE
--------
+## Normalize API
 
-Public domain (same as normalize.css)
+* `global-normalize()`
+* `normalize-html5()`
+* `normalize-base()`
+* `normalize-links()`
+* `normalize-typography()`
+* `normalize-lists()`
+* `normalize-embed()`
+* `normalize-figures()`
+* `normalize-forms()`
+* `normalize-tables()`
 
+## License 
 
-AUTHOR
-------
+(The MIT License)
 
-Kyo Nagashima <kyo@hail2u.net>, http://hail2u.net/
+Copyright (c) 2012 nulltask &lt;nulltask@gmail.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
