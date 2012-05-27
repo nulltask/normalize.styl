@@ -1,7 +1,7 @@
 {
   "name": "normalize"
 , "description": "Stylus porting of normalize.css"
-, "version": "0.1.1"
+, "version": "0.1.2"
 , "keywords": ["stylus", "stylesheet", "normalize", "normalize.css"]
 , "repository": {
     "type": "git"
