@@ -10,6 +10,9 @@
 , "dependencies": {
     "stylus": "*"
   }
+, "devDependencies": {
+    "express": "2"
+  }
 , "author": "nulltask <nulltask@gmail.com>"
 , "main": "lib/normalize.js"
 , "engines": { "node": "*" }
