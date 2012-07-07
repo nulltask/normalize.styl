@@ -1,8 +1,14 @@
 
+0.3.1 / 2012-07-07 
+==================
+
+  * Follow normalize.css 2012-07-07T09:50 UTC
+  * Removed unnecessary console.log
+
 0.3.0 / 2012-07-07 
 ==================
 
-  * follow normalize.css 2012-07-07T08:58 UTC
+  * Follow normalize.css 2012-07-07T08:58 UTC
 
 0.2.0 / 2012-05-27 
 ==================
